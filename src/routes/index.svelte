@@ -60,13 +60,15 @@
 		<tr>
 			<th>Developer</th>
 			<th>GSOC 20</th>
-			<th>CSAM @ IITD</th>
+			<th>CourseWork</th>
 		</tr>
 		<tr>
 			<td>I have been tinkering with multiple software stacks for some time now and I have gained some essential skills in a few of them. For Most of my projects I tend to use React, Sapper, Flask, Python, MERN .But recently I have been working with Raspberry Pis, Rust, Typescript as well</td>
-			<td>I was part of the 2020 GSOC programme, working with sugarlabs. We Resolved about 72 issues in MusicBlocks along with major enhancements: Integrated USB MIDI
+			<td>I was part of the 2020 GSOC program, working with SugarLabs. We Resolved about 72 issues in MusicBlocks along with major enhancements: Integrated USB MIDI
 				input, PitchAnalyser (Audio to Pitch converter), and also improved the in-app search results.</td>
-			<td>CSAM </td>
+			<td>Some Course Projects that I did are : <br /> 
+				ColorSwitch game clone, Eye Tracking based accident prevention system etc. 
+			</td>
 		</tr>
 	</table>
 </center>
