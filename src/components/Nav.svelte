@@ -19,7 +19,7 @@ let particlesConfig = {
 		},
 	  links: {
 		  enable: true,
-		  color: "#ff0",
+		  color: "#DCDCDC",
 	  },
 	  move: {
 		  enable: true,

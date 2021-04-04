@@ -21,14 +21,13 @@
     </li>
 </ul>
 
-<h2>Eh</h2>
-<ul>
-    <li>
-        <h3><a href=" https://sksum.github.io/memoji/">Eye Tracker</a></h3>
-    </li>
-</ul>
 <h2>Hackathon Projects</h2>
 <ul>
+    <li>
+        <h3><a href="https://devpost.com/software/styra">Styra ( HackPSU 1st Place )</a></h3>
+        Chrome extension that detects change in browser surfing behaviour when the
+user gets distracted and helps you stay productive and on track of your goals 
+    </li>
     <li>
         <h3><a href="https://github.com/sksum/vidMonitor">VidMonitor</a></h3>
         Webapp for Online proctoring services. 
@@ -43,5 +42,11 @@
     <li>
         <h3><a href="https://github.com/sksum/pyparse">Session Categorizer</a></h3>
         Categorizes User web sessions into categories that can later be used to suspend tabs that are no longer needed. (Intelligent Chrome tab Suspender)
+    </li>
+</ul>
+<h2>Eh</h2>
+<ul>
+    <li>
+        <h3><a href=" https://sksum.github.io/memoji/">Eye Tracker</a></h3>
     </li>
 </ul>
