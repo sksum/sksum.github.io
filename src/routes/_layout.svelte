@@ -7,8 +7,7 @@
 <style>
 	main {
 		position: relative;
-		max-width: 90%;
-		background-color: rgba(255, 255, 255, 0.75);
+		max-width: 50%;
 		padding: 2em;
 		margin: 0 auto;
 		box-sizing: border-box;

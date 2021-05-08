@@ -1,41 +1,6 @@
 <script>
 	export let segment;
 
-	import { onMount } from "svelte";
-  
-  let ParticlesComponent;
-
-  onMount(async () => {
-	const module = await import("svelte-particles");
-
-	ParticlesComponent = module.default;
-	ParticlesComponent.style = {position:'absolute'};
-});
-
-let particlesConfig = {
-	particles: {
-		color: {
-			value: "#3cb371",
-		},
-	  links: {
-		  enable: true,
-		  color: "#DCDCDC",
-	  },
-	  move: {
-		  enable: true,
-	  },
-	},
-  };
-  
-  let onParticlesLoaded = (event) => {
-	  const particlesContainer = event.detail.particles;
-	  document.getElementById("tsparticles").style.position = "absolute";
-	  document.getElementById("tsparticles").style.width = "100%";
-	  document.getElementById("tsparticles").style.height = "100%";
-
-	// you can use particlesContainer to call all the Container class
-	// (from the core library) methods like play, pause, refresh, start, stop
-  };
 </script>
 
 <style>
@@ -49,16 +14,16 @@ let particlesConfig = {
 		padding: 0;
 	}
 	.selected {
-		color: var(--primary, mediumseagreen);
+		color: var(--primary, #EDF5E1);
 	}
 	a {
 		text-decoration: none;
-		padding: 1em;
+		padding: 1rem;
+		font-size: 1.2rem;
 	}
 	.title{
 		font-weight: bold;
-		color: var(--primary, mediumseagreen);
-		margin: 0 2rem;
+		color: var(--primary, #EDF5E1);
 	}
 	@media(max-width: 576px ){
 		.title {display: none;}
@@ -72,9 +37,3 @@ let particlesConfig = {
 	<a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a>
 </nav>
 <!-- <hr /> -->
-  <svelte:component
-	this="{ParticlesComponent}"
-	id="tsparticles"
-	options="{particlesConfig}"
-	on:particlesLoaded="{onParticlesLoaded}"
-  />
