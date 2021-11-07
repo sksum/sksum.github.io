@@ -1,8 +1,15 @@
 <script>
 	export let segment;
-
+	import { scrollto } from "svelte-scrollto";
 </script>
 
+<nav>
+	<a class={segment === undefined ? "selected" : ""} href="/"> sksum </a>
+	<a use:scrollto={"#portfolio"} href="/"> portfolio </a>
+	<!-- <a use:scrollto={"#blog"} href="/"> blog </a> -->
+</nav>
+
+<!-- <hr /> -->
 <style>
 	nav {
 		box-shadow: var(--shadow-sm);
@@ -14,26 +21,20 @@
 		padding: 0;
 	}
 	.selected {
-		color: var(--primary, #EDF5E1);
+		color: var(--primary, #000080);
 	}
 	a {
 		text-decoration: none;
 		padding: 1rem;
 		font-size: 1.2rem;
 	}
-	.title{
+	.title {
 		font-weight: bold;
-		color: var(--primary, #EDF5E1);
+		color: var(--primary, #000080);
 	}
-	@media(max-width: 576px ){
-		.title {display: none;}
+	@media (max-width: 576px) {
+		.title {
+			display: none;
+		}
 	}
 </style>
-
-<nav>
-	<a class='{segment === undefined ? "selected" : ""} title' href='.'>sksum</a>
-	<a rel=prefetch class='{segment === "portfolio" ? "selected" : ""}' href='portfolio'>portfolio</a>
-	<a rel=prefetch class='{segment === "resume" ? "selected" : ""}' href='resume'>resume</a>
-	<a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a>
-</nav>
-<!-- <hr /> -->

@@ -1,17 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:wght@300&display=swap);
 
 html {
   height: 100%;
 }
 
 body {
-  background: rgb(5, 56, 107);
-  background: linear-gradient(0deg, #379683 0%, rgba(92, 219, 149, 1) 50%);
+  background: #FFF8E1;
+  /* background: linear-gradient(0deg, #F0E68C 95%, white  10%); */
 }
 
 body {
   margin: 0;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 1.5;
   color: #05386b;

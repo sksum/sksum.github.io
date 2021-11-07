@@ -1,16 +1,18 @@
 <script>
-  import successkid from "images/sksum.jpg";
+  import Portfolio from "../components/Portfolio.svelte";
+  import Blog from "../components/Blog.svelte";
 </script>
 
 <svelte:head>
   <title>sksum</title>
 </svelte:head>
-<section class = "rsksum">
+<section class="rsksum">
   <h2>
-    Hi <span>&#128075;</span> My name is Saksham Mrig (sksum), I am a 2nd year CSAM
-    undergraduate, I am an enthusiastic young developer who can google like a pro.
+    Hi <span>&#128075;</span> My name is Saksham Mrig (sksum),<br /> I am a 3rd
+    year Computer Science and Applied Mathematics undergraduate at IIIT Delhi,
+    <br /> I am an enthusiastic young developer who can google like a pro.
   </h2>
-  <center>
+  <!-- <center>
     <table>
       <tr>
         <th>Developer</th>
@@ -38,66 +40,44 @@
         </td>
       </tr>
     </table>
-  </center>
+  </center> -->
 
   <br />
   <hr />
   <br />
-  <div id="img">
+  <!-- <div id="img">
     <img id="sksum" alt="SKSUM" src={successkid} />
     <center>
       <a href="mailto: saksham19385@iiitd.ac.in">
-        <i class="far fa-envelope"></i>
+        <i class="far fa-envelope" />
       </a>
       <a href="https://github.com/sksum">
-        <i class="fab fa-github"></i>
+        <i class="fab fa-github" />
       </a>
       <a href="https://www.linkedin.com/in/saksham-mrig-b772851a3/">
-        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-linkedin-in" />
       </a>
       <a href="https://twitter.com/MrigSaksham">
-        <i class="fab fa-twitter"></i>
+        <i class="fab fa-twitter" />
       </a>
     </center>
-  </div>
+  </div> -->
 </section>
+<!-- <Resume /> -->
+<Portfolio />
+<Blog />
 
 <style>
-  th {
-    color: #05386b;
-    font-size: 1.1em;
-  }
   h2 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bolder;
     margin: 0 0 0.5em 0;
-    color: #edf5e1;
-  }
-
-  #sksum {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 0 1em 0;
-  }
-
-  .rsksum {
-	  height: 100%;
-  }
-  table {
-    display: block;
-    height: 100%;
-  }
-  td {
-    width: 33%;
-    text-align: center;
-    align-content: flex-start;
   }
   #img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
-
   }
 
   h2 {
