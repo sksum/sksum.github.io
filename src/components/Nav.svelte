@@ -5,7 +5,8 @@
 
 <nav>
 	<a class={segment === undefined ? "selected" : ""} href="/"> sksum </a>
-	<a use:scrollto={"#portfolio"} href="/"> portfolio </a>
+	<a href="resume.pdf"> resume </a>
+	<!-- <a use:scrollto={"#portfolio"} href="/"> portfolio </a> -->
 	<!-- <a use:scrollto={"#blog"} href="/"> blog </a> -->
 </nav>
 

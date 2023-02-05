@@ -7,7 +7,7 @@
                 Detection
             </h3>
             <h5>
-                <a href="http://pakdd.net/"> PAKDD'22 (Under Review) </a>
+                <a href="https://dl.acm.org/doi/abs/10.1145/3487553.3524650?casa_token=mi1j0N6VPuMAAAAA:OM5BzPc5YI-wJHzOQJRM4zsXJJW155NgKlKiHcIy5kP8DtzLzwoWaTFIg8JLws_183Shc96FEyGp"> WWW '22: Companion Proceedings of the Web Conference  </a>
             </h5>
             Proposed a novel model architecture that leverages the fine-grained salient
             image and text features that outperformed existing methodologies by an
@@ -21,11 +21,24 @@
     <ul>
         <li>
             <h3>
+                <a href="https://www.atlassian.com/">
+                    Data Scientist Intern @ Atlassian
+                </a>
+            </h3>
+            Developed a neural network based recommendation system that recommends the best on-site to cloud
+            migration strategy tailored for each customer with a <b> MAP@[k=3] score of 0.70 </b>
+            <br>
+            Synthesized the data into 20+ executive-ready insights, Lead the dialogue with stakeholders and senior
+            team members on how to generate firm-wide impact.
+            Google Summer of Code (with SugarLabs, Boston)
+        </li>
+        <li>
+            <h3>
                 <a href="https://github.com/sksum/GSOC-20-Final-Work-Product">
                     Google Summer of Code (with Sugarlabs)
                 </a>
             </h3>
-            Resolved about
+            Resolved 
             <b> 72 issues</b>
             in MusicBlocks along with major enhancements such as:
             <br />
